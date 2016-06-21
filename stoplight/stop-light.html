@@ -1,0 +1,41 @@
+<html>
+<head>
+  <title>stop-light</title>
+  <link rel="stylesheet" type="text/css" href="stoplight.css">
+</head>
+
+<body>
+<button id="stop-button" onclick="stopFunction()">Stop</button>
+<button id="slow-button" onclick="slowFunction()">Slow</button>
+<button id="go-button" onclick="goFunction()">Go</button>
+<button id="caution-button">Caution</button>
+  <center>
+    <div class="lightbox">
+      <center>
+      <div class="light" id="stop"></div>
+      <div class="light" id="slow"></div>
+      <div class="light" id="go"></div>
+      </center>
+    </div>
+
+<script>
+function stopFunction() {
+    document.getElementById("stop").classList.add("stop-light-stop");
+    document.getElementById("stop").classList.remove("light","stop-light-slow","stop-light-go");
+}
+
+function slowFunction() {
+    document.getElementById("slow").classList.remove("light","stop-light-go","stop-light-stop");
+    document.getElementById("slow").classList.add("stop-light-slow");
+}
+
+function goFunction() {
+    document.getElementById("go").classList.remove("light","stop-light-stop","stop-light-slow");
+    document.getElementById("go").classList.add("stop-light-go");
+}
+</script>
+
+
+</center>
+</body>
+</html>

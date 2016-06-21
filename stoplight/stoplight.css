@@ -1,0 +1,55 @@
+.lightbox {
+  background-color: #ECC600;
+  height: 470px;
+  width: 200px;
+  border-radius: 20px;
+  padding-top:42px;
+}
+
+.light {
+  background-color: #615000;
+  border-radius: 100px;
+  height: 115px;
+  width: 115px;
+  margin: 19px;
+  box-shadow: inset 0px 17px 11px 0px #040000;
+  -webkit-box-shadow: inset 0px 17px 11px 0px #040000;
+  -moz-box-shadow: inset 0px 17px 11px 0px #040000;
+  -o-box-shadow: inset 0px 17px 11px 0px #040000;
+}
+
+.stop-light-go {
+  background-color: rgb(0, 219, 75);
+  border-radius: 100px;
+  height: 115px;
+  width: 115px;
+  margin: 19px;
+  box-shadow: inset 0px 17px 11px 0px #040000;
+  -webkit-box-shadow: inset 0px 17px 11px 0px #040000;
+  -moz-box-shadow: inset 0px 17px 11px 0px #040000;
+  -o-box-shadow: inset 0px 17px 11px 0px #040000;
+}
+
+.stop-light-slow {
+  background-color: rgb(219, 211, 0);
+  border-radius: 100px;
+  height: 115px;
+  width: 115px;
+  margin: 19px;
+  box-shadow: inset 0px 17px 11px 0px #040000;
+  -webkit-box-shadow: inset 0px 17px 11px 0px #040000;
+  -moz-box-shadow: inset 0px 17px 11px 0px #040000;
+  -o-box-shadow: inset 0px 17px 11px 0px #040000;
+}
+
+.stop-light-stop {
+  background-color: rgb(219, 0, 0);
+  border-radius: 100px;
+  height: 115px;
+  width: 115px;
+  margin: 19px;
+  box-shadow: inset 0px 17px 11px 0px #040000;
+  -webkit-box-shadow: inset 0px 17px 11px 0px #040000;
+  -moz-box-shadow: inset 0px 17px 11px 0px #040000;
+  -o-box-shadow: inset 0px 17px 11px 0px #040000;
+}
