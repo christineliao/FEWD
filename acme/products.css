@@ -1,0 +1,35 @@
+.product {
+  overflow: auto;
+  margin-bottom: 2em;
+  display: block;
+}
+
+.product-image {
+  float: left;
+  width: 400px;
+  margin-right: 2em;
+}
+
+li.buttonlist {
+  margin-right: 0px;
+}
+
+.secondarybutton {
+  height: 30px;
+  background-color: white;
+  border: 2px blue solid;
+}
+
+.secondarybutton a {
+  color: blue;
+  text-shadow: none;
+}
+
+.primarybutton {
+  height: 30px;
+  background-color: blue;
+}
+
+p {
+  margin-top: 0px;
+}

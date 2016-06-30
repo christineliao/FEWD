@@ -7,7 +7,7 @@ header {
   padding-right: 30px;
 }
 
-img {
+.logo {
   float: left;
   text-shadow: 1px #666666;
 }
@@ -16,11 +16,12 @@ a {
   color: white;
   text-decoration: none;
   text-shadow: 1px 1px rgba(0,0,0,0.4);
-  font-family: LucidaGrande;
+  font-family: "LucidaGrande";
 }
 
 
 body {
+  background-image: url("background.png");
   font-family: "LucidaGrande";
   margin: 0px;
 }
@@ -35,7 +36,7 @@ main {
   box-shadow: 0px 2px 14px 0px #DADADA;
 }
 
-ul {
+.headerbutton {
   list-style-type: none;
   text-align: right;
   padding-right: 10px;
@@ -43,14 +44,14 @@ ul {
 
 li {
   display: inline;
-  margin: 10px;
+  margin-right: 20px;
 }
 
 button {
   background-color: rgb(44,79,176);
 	border:1px solid rgb(47,56,138);
 	display:inline-block;
-  width: 100px;
+  padding: 0px 20px;
   height: 40px;
 	cursor:pointer;
 	color:#ffffff;

@@ -1,0 +1,30 @@
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+.fill-in {
+  width: 200px;
+  height: 20px;
+  border: 1px solid rgb(255, 176, 185);
+  border-radius: 2px;
+}
+
+.fill-in:focus {
+  outline:none;
+  border-color: ##FFB0B9;
+  box-shadow:0 0 14px #B8FFE7;
+}
+
+.check{
+  width: 400px;
+}
+
+.form-row {
+  margin-bottom: 2%;
+
+}
+
+.submit-button {
+  width: 80px;
+}
