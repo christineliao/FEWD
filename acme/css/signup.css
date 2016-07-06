@@ -3,6 +3,15 @@ label {
   width: 100px;
 }
 
+/*
+input[type=text] {
+  width: 200px;
+  height: 20px;
+  border: 1px solid rgb(255, 176, 185);
+  border-radius: 2px;
+}
+*/
+
 .fill-in {
   width: 200px;
   height: 20px;
